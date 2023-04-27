@@ -3,5 +3,7 @@ public class Main {
         System.out.println("fasdfasd");
 
         System.out.println("New message");
+
+        System.out.println("asdfasdf");
     }
 }
