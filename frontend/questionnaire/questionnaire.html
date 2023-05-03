@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../main/index.html" class="header__link">main</a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="questionnaire">
+                <h1 class="questionnaire__title">Анкета персональных данных</h1>
+                <div class="questionnaire__inner">
+
+                    <form action="#" method="post" class="form">
+                        <div class="form__info">
+                            <p class="form__text">Имя</p>
+                            <p class="form__text">Язык</p>
+                            <p class="form__text">О себе</p>
+                        </div>
+                        <div class="form__elems">
+                            <input type="text" class=" input input__name" placeholder="Введите имя">
+                            <input type="text" class=" input input__lang" placeholder="Введите язык">
+                            <textarea type="text" class="input input__about"
+                                placeholder="Введите информацию о себе"></textarea>
+                            <button type="submit" class="form__btn">Отправить</button>
+                        </div>
+                        <!-- <div class="form__box">
+
+
+                        </div>
+                        <div class="form__box">
+
+
+                        </div>
+                        <div class="form__box">
+
+                        </div> -->
+                    </form>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <script src="./sendData.js"></script>
+</body>
+
+</html>
