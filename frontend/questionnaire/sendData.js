@@ -12,7 +12,7 @@ btn.addEventListener('click', (e) => {
 
     const data = {
         personName: inputName.value,
-        programmLanguage: inputLang.value,
+        programLanguage: inputLang.value,
         about: inputAbout.value,
     };
     sendData(url, data);
